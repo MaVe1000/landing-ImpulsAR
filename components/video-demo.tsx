@@ -17,12 +17,15 @@ export function VideoDemo() {
           <div className="overflow-hidden rounded-xl border border-border bg-card shadow-xl">
             <div className="relative aspect-video">
               <iframe
-                className="absolute inset-0 h-full w-full"
-                src="https://www.youtube.com/embed/2sKzz8X2m0Q"
-                title="ImpulsAR Demo"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              />
+                width="100%"
+                height="100%"
+                src="https://www.youtube.com/embed/MGe0E2fHNoI?si=fa-69UXfy2gWW_5F"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
             </div>
           </div>
         </div>
@@ -42,5 +45,5 @@ export function VideoDemo() {
         </div>
       </div>
     </section>
-  )
+  );
 }
